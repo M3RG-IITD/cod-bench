@@ -41,4 +41,21 @@ Given model and the choice of optimization and loss functions, hyperparameters, 
 Fit function in each of the class of this module trains the model till convergence on the given train_loader.
 Test function can be used to see the performance of the model on test set once trained.
 eg. code:
-1. 
+1. hyperparameters = {
+2.  'lr': 1e-3,
+3.  'weight_decay': 1e-4,
+4.  'step_size': 100,
+5.  'gamma': 0.5,
+6.  'optimizer': 'Adam',
+7.  'scheduler': 'StepLR',
+8.  'loss_fn': 'RelL2',
+9.  'loss_metric': 'MSE',
+10. 'batch_size': batch_size,
+11. 'random_seed': random_seed,
+12. }
+13. model = FNO2d()
+14. trainer = Trainer(model_name=FNO+Biaxial", model=model, hyperparams=hyperparameters, \
+                    output_transform=out_transform, device=device)
+15. trainer.fit(train_dataloader=train_grid_loader, val_dataloader=val_grid_loader, test_dataloader=test_grid_loader)
+16. loss1, loss2 = trainer.test(test_dataloader=test_grid_loader)
+
