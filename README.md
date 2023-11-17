@@ -35,3 +35,10 @@ B. loader_1d.py, loader_2d.py:
 
 C. loader_gnot.py:
    GNOT combines all data in the form of a graph before training phase. This module allows to create the graph dataloader for all datasets    for use with the GNOT model.
+
+# trainer module
+Given model and the choice of optimization and loss functions, hyperparameters, it create a suitable Trainer instance.
+Fit function in each of the class of this module trains the model till convergence on the given train_loader.
+Test function can be used to see the performance of the model on test set once trained.
+eg. code:
+1. 
