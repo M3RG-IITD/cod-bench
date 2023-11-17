@@ -13,12 +13,12 @@ The codebase contains 4 major modules.
 
 Loader Modules:
 
-1. dataloader.py:
+A. dataloader.py:
    Provides the functionality of processing the raw dataset provided and split it into pytorch tensors of train, validation and test set.
-   eg.
-PATH = 'data/Biaxial_N70000_D28.npz'.
-loader = npzloader(path=PATH).
-x_train, y_train, x_val, y_val, x_test, y_test = loader.split(ntrain, nval, ntest).
+   eg. code:
+1. PATH = 'data/Biaxial_N70000_D28.npz'.
+2. loader = npzloader(path=PATH).
+3. x_train, y_train, x_val, y_val, x_test, y_test = loader.split(ntrain, nval, ntest).
 
 
 3. loader_1d.py, loader_2d.py:
