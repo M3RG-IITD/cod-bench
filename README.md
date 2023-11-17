@@ -59,3 +59,10 @@ eg. code:
 15. trainer.fit(train_dataloader=train_grid_loader, val_dataloader=val_grid_loader, test_dataloader=test_grid_loader)
 16. loss1, loss2 = trainer.test(test_dataloader=test_grid_loader)
 
+
+# Further Details
+1. All code used for experimentation is provided in form of run_{model_name}_{dataset_name}.py python scripts.
+2. Since the input output data processing for 5 of the models: FNO, WNO, FNN, ResNet, UNet is similar they all are included in a single file. Such code can be found in scripts like run1_darcy.py, run1_nvs.py etc.
+3. The basic data processing is similar for the models: DeepONet, POD-DeepONet, SNO. Code for running these models can be found in files run2_{dataset_name}.py files.
+4. Code for running model_name in {'CGAN', 'GNOT', 'OFORMER', 'LSM'} can be found in files named as run_{model_name}_{dataset_name}.py files.
+
