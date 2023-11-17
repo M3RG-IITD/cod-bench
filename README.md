@@ -21,9 +21,9 @@ A. dataloader.py:
 3. x_train, y_train, x_val, y_val, x_test, y_test = loader.split(ntrain, nval, ntest).
 
 
-3. loader_1d.py, loader_2d.py:
+B. loader_1d.py, loader_2d.py:
    Provides the tool to convert the pytorch tensors of data into Pytorch dataloader that can be directly used in the traning process.
    eg.
 
-4. loader_gnot.py:
+C. loader_gnot.py:
    GNOT combines all data in the form of a graph before training phase. This module allows to create the graph dataloader for all datasets    for use with the GNOT model.
