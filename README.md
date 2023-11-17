@@ -6,10 +6,10 @@ https://drive.google.com/drive/folders/1HZ-fHYBVSPHBdl7Lf8wxbuBdh2ilL0dY?usp=sha
 
 # modules
 The codebase contains 4 major modules.
-1. Loader Modules: Provides functionality of turning datasets to PyTorch DataLoaders. (see LOADER.md)
+1. Loader Modules: Provides functionality of turning datasets to PyTorch DataLoaders. 
 2. Operator Modules: Contains Implementation of all models benchamrked in the paper in fully functional form using PyTorch Framework.
 3. Utility Modules: Helper functions providing utilities such as transforms, loss functions, optimizers etc.
-4. Trainer Module: Provides a common interface for training and testing any pair of model, dataset. (see TRAINER.md)
+4. Trainer Module: Provides a common interface for training and testing any pair of model, dataset. 
 
 # loader module
 
