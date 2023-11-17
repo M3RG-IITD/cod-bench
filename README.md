@@ -23,7 +23,11 @@ A. dataloader.py:
 
 B. loader_1d.py, loader_2d.py:
    Provides the tool to convert the pytorch tensors of data into Pytorch dataloader that can be directly used in the traning process.
+   Provides functionality such as input/output normalization, grid_data appended loader etc.
    eg. code:
+1. train_obj = DataLoader_2D(X=x_train, y=y_train, n=ntrain, res=training_data_resolution, \
+                            grid_size=grid_size, batch_size=batch_size, x_normalizer=x_normalizer)
+
    
 
 C. loader_gnot.py:
