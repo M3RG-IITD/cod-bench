@@ -27,9 +27,9 @@ B. loader_1d.py, loader_2d.py:
    eg. code:
 1. train_obj = DataLoader_2D(X=x_train, y=y_train, n=ntrain, res=training_data_resolution, \
                             grid_size=grid_size, batch_size=batch_size, x_normalizer=x_normalizer)
+2. train_grid_loader = train_obj.get_grid_loader()
 
    
 
 C. loader_gnot.py:
    GNOT combines all data in the form of a graph before training phase. This module allows to create the graph dataloader for all datasets    for use with the GNOT model.
-   eg. code:
