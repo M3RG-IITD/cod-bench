@@ -6,11 +6,11 @@ https://drive.google.com/drive/folders/1HZ-fHYBVSPHBdl7Lf8wxbuBdh2ilL0dY?usp=sha
 
 
 # Using the codebase
-4 functionalities are required to take a pair of model and dataset and to perform the training and testing.
-1. Load the data
-2. Create the Pytorch Model
-3. Choose the optimizer, scheduler, loss function and hyperparameter for training.
-4. Put them all together, create a training and testing loop to use the model.
+4 steps are required to take a pair of model and dataset and to perform the training and testing.
+1. Loading data
+2. Creating the Pytorch Model
+3. Choosing optimizer, scheduler, loss function and hyperparameter for training.
+4. Putting them all together, create a training and testing loop to use the model.
 
 All these functionalities are written using a specific module for each task. More details about each of the module is given below. Completely functional code (Run_files) are attached for more working examples.
 
