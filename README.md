@@ -2,8 +2,7 @@
 We present cod-bench containing 12 operators and 10 datasets.
 # data
 The datasets used for benchmarking can be downloaded from here.
-[https://drive.google.com/drive/folders/1HZ-fHYBVSPHBdl7Lf8wxbuBdh2ilL0dY?usp=share_link
-]
+
 (https://zenodo.org/records/10784802?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjYzMzYwMzM3LTBjNGUtNGRhNy1iZTc0LTQzYmFkYTk5YjEzMSIsImRhdGEiOnt9LCJyYW5kb20iOiIwNDk3ODNhNzM2Zjg4N2UyOGMxZDA5YmJmZTZjOWQxNCJ9.uZuOQh-rgVDZg8eMpcH4UOQX3E424CodhK2_eWVe_KvqMruhOBFKu5RslyQd-ojPByIXDjFVq97tM_dG8dlAmQ)
 
 # Using the codebase
