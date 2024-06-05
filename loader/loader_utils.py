@@ -1,3 +1,8 @@
+"""
+This file is based on General Neural Operator Transformer defined in paper [https://arxiv.org/abs/2302.14376.pdf].
+
+"""
+
 import torch
 import numpy as np
 import contextlib
