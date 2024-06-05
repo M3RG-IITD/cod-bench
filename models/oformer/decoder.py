@@ -1,3 +1,9 @@
+"""
+This file is based on Transformer for Partial Differential Equations' Operator Learning defined in paper [https://arxiv.org/abs/2205.13671.pdf].
+
+"""
+
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
