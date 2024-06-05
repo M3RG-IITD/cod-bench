@@ -1,3 +1,8 @@
+"""
+@author: Zongyi Li
+This file is based on the Fourier Neural Operator for General Geometries from the [paper](https://arxiv.org/abs/2207.05209.pdf).
+"""
+
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import torch
