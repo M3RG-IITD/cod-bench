@@ -1,3 +1,8 @@
+"""
+This file is based on Spectral Neural Operator defined in paper [https://arxiv.org/abs/2205.10573.pdf].
+
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
