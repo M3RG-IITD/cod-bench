@@ -1,3 +1,9 @@
+"""
+This file is based on Transformer for Partial Differential Equations' Operator Learning defined in paper [https://arxiv.org/abs/2205.13671.pdf].
+
+"""
+
+
 from .encoder import SpatialEncoder2D, Encoder1D, SpatialTemporalEncoder2D
 from .decoder import PointWiseDecoder2DSimple, PointWiseDecoder2DComplex, PointWiseDecoder1D
 
