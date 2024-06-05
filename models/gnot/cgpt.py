@@ -1,3 +1,8 @@
+"""
+This file is based on General Neural Operator Transformer defined in paper [https://arxiv.org/abs/2302.14376.pdf].
+
+"""
+
 #!/usr/bin/env python
 #-*- coding:utf-8 _*-
 import math
