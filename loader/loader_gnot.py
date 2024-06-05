@@ -1,3 +1,8 @@
+"""
+This file is based on General Neural Operator Transformer defined in paper [https://arxiv.org/abs/2302.14376.pdf].
+
+"""
+
 from .loader_utils import TorchQuantileTransformer, UnitTransformer, PointWiseUnitTransformer, MultipleTensors
 from sklearn.preprocessing import QuantileTransformer
 from dgl.data import DGLDataset
