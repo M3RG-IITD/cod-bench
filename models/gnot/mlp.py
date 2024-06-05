@@ -1,3 +1,9 @@
+"""
+This file is based on General Neural Operator Transformer defined in paper [https://arxiv.org/abs/2302.14376.pdf].
+
+"""
+
+
 import torch.nn as nn
 import torch.nn.functional as F
 
